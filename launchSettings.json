@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "test": "StartDebugging",
+        "db": "StartWithoutDebugging"
+      },
+      "environmentVariables": {
+        "POSTGRES_USER": "test",
+        "POSTGRES_PASSWORD": "123",
+        "POSTGRES_DB": "test123"
+      }
+    }
+  }
+}
